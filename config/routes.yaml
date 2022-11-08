@@ -5,3 +5,28 @@ controllers:
 kernel:
     resource: ../src/Kernel.php
     type: annotation
+
+#app_employee_index:
+#    path: /
+#    # the controller value has the format 'controller_class::method_name'
+#    controller: App\Controller\EmployeeController::index
+#
+#app_employee_new:
+#    path: /new
+#    # the controller value has the format 'controller_class::method_name'
+#    controller: App\Controller\EmployeeController::new
+#
+#app_employee_show:
+#    path: /{id}
+#        # the controller value has the format 'controller_class::method_name'
+#    controller: App\Controller\EmployeeController::show
+#
+#app_employee_edit:
+#    path: /{id}/edit
+#    # the controller value has the format 'controller_class::method_name'
+#    controller: App\Controller\EmployeeController::edit
+#
+#app_employee_delete:
+#    path: /{id}
+#    # the controller value has the format 'controller_class::method_name'
+#    controller: App\Controller\EmployeeController::delete
